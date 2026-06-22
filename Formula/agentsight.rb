@@ -1,8 +1,8 @@
 class Agentsight < Formula
   desc "Token attribution and session intelligence for Claude Code"
   homepage "https://github.com/RealNerd/agentsight"
-  url "https://github.com/RealNerd/agentsight/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "5db14f0fd05165d5e700830ee3747bc629a1a031d4118cd399b0183a4291c42c"
+  url "https://github.com/RealNerd/agentsight/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "4de27f6039f2be4dd616500a9a0ce09dfb5d6da5cb706aacfe2eb37a219226c2"
   license any_of: ["MIT", "Apache-2.0"]
 
   depends_on "rust" => :build
